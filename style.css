@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Ubuntu:wght@300&display=swap');
 *
 {
   margin: 0;
@@ -79,40 +79,35 @@ header
   font-size: 4em;
   color: #112434;
 }
-
-/* Section 1 */
-.cnt0 {
-  display: flex;
-  padding: 30px 50px;
-}
-
-
-
-/* Cross */
-
-.cnt1 {
-  display: flex;
-}
-
-.sec 
+.cnt0 
 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: relative;
   padding: 100px;
   background: #112434;
 }
-.sec h2 
-{
-  font-size: 3em;
-  color: #fff;
-  margin-bottom: 10px;
+.cnt0_abt{
+  width: 100vh;
+  height: auto;
 }
-.sec p 
-{
-  font-size: 1em;
-  color: #fff;
-  font-weight: 300;
+.cnt0_abt h5 {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-family: 'quicksand';
 }
-
-.sec div {
-  display: flex;
+.cnt0_abt h3 {
+  font-family: 'open sans';
+  font-size: 40px;
+}
+.cnt0_date {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.cnt0_abt_text {
+  font-size: 15px;
+  font-family: 'ubuntu';
+  padding-top: 20px;
 }
