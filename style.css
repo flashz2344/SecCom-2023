@@ -181,7 +181,6 @@ header
 }
 .date {
   padding: 10px;
-  margin: 0px 5px;
   border: 1px  solid #fff;
   border-radius: 5px 5px 0px 0px ;
   cursor: pointer;
@@ -190,15 +189,35 @@ header
   display: none;
   padding: 15px;
   border: 1px solid #fff;
+  border-radius: 0px 10px 10px 10px;
 }
-/* --------Event1-------- */
 .events {
-  margin: 10px 5px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
 }
 .events h3 {
   font-family: 'quicksand';
   letter-spacing: 2px;
+  font-size: 17px;
+}
+.events p {
+  font-family: 'ubuntu';
   font-size: 15px;
+  padding-left: 5px;
+  padding-bottom: 3px;
+}
+.events h4 {
+  font-family: 'open sans';
+}
+.events hr {
+  width: 80px;
+  margin-bottom: 5px;
+}
+.events_p {
+  font-size: 12px !important;
+  padding-left: 0px !important;
+}
+.event1_topics, .event2_topics, .event3_topics {
+  margin-left: 10px;
 }
