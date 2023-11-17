@@ -85,7 +85,7 @@ header
   align-items: center;
   justify-content: space-between;
   position: relative;
-  padding: 100px;
+  padding: 50px 100px;
   background: #112434;
 }
 .cnt0_abt{
@@ -110,4 +110,50 @@ header
   font-size: 15px;
   font-family: 'ubuntu';
   padding-top: 20px;
+  text-align: justify;
+}
+.cnt1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: relative; */
+  padding: 50px 100px;
+  background: #112434;
+}
+.cnt1 h3 {
+  align-self: flex-start;
+  font-family: 'open sans';
+  font-size: 40px;
+}
+.cnt1_cards {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.cnt1_card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  height: 170px;
+  width: 250px;
+  margin: 20px;
+  padding: 7px;
+  border-radius: 10px;
+}
+.cnt1_card h5 {
+  font-family: 'quicksand';
+  font-size: 15px;
+}
+.cnt1_card p {
+  font-family: 'ubuntu';
+  font-size: 13px;
+  padding: 5px 8px;
+}
+.cnt1_card a {
+  font-family: 'open sans';
+  color: #000000;
+  text-decoration: none;
+  font-size: 13px;
+  padding-left: 5px;
 }
