@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Ubuntu:wght@300&display=swap');
-*
-{
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Ubuntu:wght@300&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body {
   background: #06060a;
@@ -27,14 +26,14 @@ header {
   flex-direction: column;
   align-items: center;
 }
-.logo h5{
+.logo h5 {
   color: #3dc21b;
-  font-family: 'ubuntu';
+  font-family: "ubuntu";
   font-size: 20px;
 }
 .logo p {
   color: #fff;
-  font-family: 'open sans';
+  font-family: "open sans";
   font-size: 10px;
 }
 header ul {
@@ -52,31 +51,30 @@ header ul li a:hover {
 }
 .myButton {
   background: none;
-	border-radius:10px;
-	border:2px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size: 10px;
-	padding: 10px 20px;
-	text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 .myButton:hover {
   background: #18ab29;
-	border:2px solid #39c949;
+  border: 2px solid #39c949;
   box-shadow: 0px 1px 25px 0px #3dc21b;
 }
 /* ---------- Container 0 ---------- */
-.cnt0 
-{
+.cnt0 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
   padding: 50px 100px;
 }
-.cnt0_abt{
+.cnt0_abt {
   width: 100vh;
   height: auto;
 }
@@ -84,11 +82,11 @@ header ul li a:hover {
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 3px;
-  font-family: 'quicksand';
+  font-family: "quicksand";
   color: #ff4a67;
 }
 .cnt0_abt h3 {
-  font-family: 'open sans';
+  font-family: "open sans";
   font-size: 40px;
   color: #3dc21b;
 }
@@ -99,7 +97,7 @@ header ul li a:hover {
 }
 .cnt0_abt_text {
   font-size: 15px;
-  font-family: 'ubuntu';
+  font-family: "ubuntu";
   padding-top: 20px;
   text-align: justify;
   color: #fff;
@@ -114,7 +112,7 @@ header ul li a:hover {
 }
 .cnt1 h3 {
   align-self: flex-start;
-  font-family: 'open sans';
+  font-family: "open sans";
   font-size: 40px;
   color: #3dc21b;
 }
@@ -145,17 +143,17 @@ header ul li a:hover {
   color: #00000080;
 }
 .cnt1_card h5 {
-  font-family: 'quicksand';
+  font-family: "quicksand";
   font-size: 15px;
   color: #3dc21b;
 }
 .cnt1_card p {
-  font-family: 'ubuntu';
+  font-family: "ubuntu";
   font-size: 13px;
   padding: 5px 8px;
 }
 .cnt1_card a {
-  font-family: 'open sans';
+  font-family: "open sans";
   color: #ff4a67;
   text-decoration: none;
   font-size: 13px;
@@ -172,12 +170,12 @@ header ul li a:hover {
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 3px;
-  font-family: 'quicksand';
+  font-family: "quicksand";
   color: #ff4a67;
 }
 #cnt2_p {
   align-self: flex-start;
-  font-family: 'open sans';
+  font-family: "open sans";
   font-size: 40px;
   color: #3dc21b;
 }
@@ -187,10 +185,10 @@ header ul li a:hover {
 }
 .date {
   color: #f28500;
-  font-family: 'ubuntu';
+  font-family: "ubuntu";
   padding: 10px;
-  border: 1px  solid #fff;
-  border-radius: 5px 5px 0px 0px ;
+  border: 1px solid #fff;
+  border-radius: 5px 5px 0px 0px;
   cursor: pointer;
 }
 .timetable {
@@ -200,7 +198,7 @@ header ul li a:hover {
   border-radius: 0px 10px 10px 10px;
 }
 .topic_ul li {
-  font-family: 'ubuntu';
+  font-family: "ubuntu";
   font-size: 15px;
   margin-left: 15px;
   color: #fff;
@@ -211,20 +209,20 @@ header ul li a:hover {
   flex-direction: column;
 }
 .events h3 {
-  font-family: 'quicksand';
+  font-family: "quicksand";
   letter-spacing: 2px;
   font-size: 17px;
   color: #ff4a67;
 }
 .events p {
-  font-family: 'ubuntu';
+  font-family: "ubuntu";
   font-size: 15px;
   padding-left: 5px;
   padding-bottom: 3px;
   color: #fff;
 }
 .events h4 {
-  font-family: 'open sans';
+  font-family: "open sans";
   color: #3dc21b;
 }
 .events hr {
@@ -235,6 +233,10 @@ header ul li a:hover {
   font-size: 12px !important;
   padding-left: 0px !important;
 }
-.event1_topics, .event2_topics, .event3_topics, .event4_topics, .event5_topics{
+.event1_topics,
+.event2_topics,
+.event3_topics,
+.event4_topics,
+.event5_topics {
   margin-left: 10px;
 }
