@@ -6,79 +6,68 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body 
-{
-  overflow-x: hidden;
-  background: #fff;
-  min-height: 100vh;
+body {
+  background: #06060a;
 }
-header 
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 30px 100px;
+/* ---------- Header ---------- */
+header {
   display: flex;
   justify-content: space-between;
+  padding: 0px 100px;
   align-items: center;
-  z-index: 1000;
+  box-shadow: 0px 1px 100px #3dc21b;
+  background: rgba(0, 0, 0, 0.9);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 8vh;
 }
-.logo 
-{
-  color: #112434;
-  font-weight: 700;
-  font-size: 2em;
-  text-decoration: none;
-}
-.navigation 
-{
+.logo {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  gap: 40px;
 }
-.navigation li 
-{
-  list-style: none;
+.logo h5{
+  color: #3dc21b;
+  font-family: 'ubuntu';
+  font-size: 20px;
 }
-.navigation li a 
-{
-  text-decoration: none;
-  padding: 6px 15px;
-  color: #112434;
-  border-radius: 20px;
-}
-.navigation li a:hover ,
-.navigation li a.active
-{
-  background: #112434;
+.logo p {
   color: #fff;
+  font-family: 'open sans';
+  font-size: 10px;
 }
-.parallax 
-{
-  position: relative;
+header ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  list-style: none;
+  gap: 25px;
 }
-.parallax img 
-{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  pointer-events: none;
+header ul li a {
+  text-decoration: none;
+  color: #3dc21b;
 }
-#text 
-{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 4em;
-  color: #112434;
+header ul li a:hover {
+  color: #ff4a67;
+  text-shadow: 0px 5px 10px #ff4a67;
 }
+.myButton {
+  background: none;
+	border-radius:10px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 10px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+.myButton:hover {
+  background: #18ab29;
+	border:2px solid #39c949;
+  box-shadow: 0px 1px 25px 0px #3dc21b;
+}
+/* ---------- Container 0 ---------- */
 .cnt0 
 {
   display: flex;
@@ -86,7 +75,6 @@ header
   justify-content: space-between;
   position: relative;
   padding: 50px 100px;
-  background: #112434;
 }
 .cnt0_abt{
   width: 100vh;
@@ -97,33 +85,38 @@ header
   font-weight: 100;
   letter-spacing: 3px;
   font-family: 'quicksand';
+  color: #ff4a67;
 }
 .cnt0_abt h3 {
   font-family: 'open sans';
   font-size: 40px;
+  color: #3dc21b;
 }
 .cnt0_date {
   font-size: 12px;
   font-family: sans-serif;
+  color: #ff4a67;
 }
 .cnt0_abt_text {
   font-size: 15px;
   font-family: 'ubuntu';
   padding-top: 20px;
   text-align: justify;
+  color: #fff;
 }
+/* ---------- Container 1 ---------- */
 .cnt1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   /* position: relative; */
   padding: 50px 100px;
-  background: #112434;
 }
 .cnt1 h3 {
   align-self: flex-start;
   font-family: 'open sans';
   font-size: 40px;
+  color: #3dc21b;
 }
 .cnt1_cards {
   padding-top: 20px;
@@ -140,10 +133,21 @@ header
   margin: 20px;
   padding: 7px;
   border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.cnt1_card:hover {
+  border: 1px solid #3dc21b;
+  background: #3dc21b;
+  box-shadow: 0px 1px 25px 0px #3dc21b;
+}
+.cnt1_card:hover h5 {
+  color: #00000080;
 }
 .cnt1_card h5 {
   font-family: 'quicksand';
   font-size: 15px;
+  color: #3dc21b;
 }
 .cnt1_card p {
   font-family: 'ubuntu';
@@ -152,16 +156,16 @@ header
 }
 .cnt1_card a {
   font-family: 'open sans';
-  color: #000000;
+  color: #ff4a67;
   text-decoration: none;
   font-size: 13px;
   padding-left: 5px;
 }
+/* ---------- Container 2 ---------- */
 .cnt2 {
   display: flex;
   flex-direction: column;
   padding: 50px 100px;
-  background: #112434;
 }
 #cnt2_h4 {
   align-self: flex-start;
@@ -169,17 +173,21 @@ header
   font-weight: 100;
   letter-spacing: 3px;
   font-family: 'quicksand';
+  color: #ff4a67;
 }
 #cnt2_p {
   align-self: flex-start;
   font-family: 'open sans';
   font-size: 40px;
+  color: #3dc21b;
 }
 .event-list {
   margin-top: 1;
   display: flex;
 }
 .date {
+  color: #f28500;
+  font-family: 'ubuntu';
   padding: 10px;
   border: 1px  solid #fff;
   border-radius: 5px 5px 0px 0px ;
@@ -200,15 +208,18 @@ header
   font-family: 'quicksand';
   letter-spacing: 2px;
   font-size: 17px;
+  color: #ff4a67;
 }
 .events p {
   font-family: 'ubuntu';
   font-size: 15px;
   padding-left: 5px;
   padding-bottom: 3px;
+  color: #fff;
 }
 .events h4 {
   font-family: 'open sans';
+  color: #3dc21b;
 }
 .events hr {
   width: 80px;
